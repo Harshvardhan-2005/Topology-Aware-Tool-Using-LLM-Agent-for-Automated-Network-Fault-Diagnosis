@@ -77,10 +77,13 @@ graph TD
 ├── README.md                           # Master project documentation
 ├── docs/
 │   ├── DTU_PROJECT_REPORT.md           # Full 1,000+ line academic report (DTU format)
+│   ├── HARSH_CODEBASE_GUIDE.md         # Person 1: Emulation substrate & benchmark guide
+│   ├── ISHAAN_CODEBASE_GUIDE.md        # Person 2: Cognitive plane & visualizer guide
 │   ├── TECHNICAL_HANDOFF.md            # In-depth technical architecture and bug fix log
 │   ├── PROJECT_OVERVIEW.md             # High-level executive overview and roadmap
 │   └── LAYMAN_SUMMARY.md               # Plain-English explanation and viva presentation guide
 ├── src/
+│   ├── nika_bridge_api.py              # Live FastAPI Bridge Daemon for remote visualizer
 │   ├── topology_server.py              # Pure-Python read-only MCP Topology Server
 │   └── thought_signature_patch.py     # Monkey patch for LangChain thought_signature support
 ├── results/
@@ -91,12 +94,28 @@ graph TD
 
 ---
 
+## 🌐 Distributed Hybrid Architecture
+
+This project is engineered as a distributed, dual-node system:
+
+1. **Harsh's Node (Data-Plane & Emulation Substrate — This Repo):**
+   * Runs the ground-truth Linux kernel VRF, FRRouting (BGP), Kathará Docker containers, and the NIKA benchmark on an ARM64 Ubuntu VM.
+   * Exposes `src/nika_bridge_api.py` over an encrypted Cloudflare Tunnel.
+
+2. **Ishaan's Node (Cognitive Plane & Interactive Mission Control):**
+   * Hosts the FastAPI WebSocket streaming dashboard, HTML5 canvas graph, Okapi BM25 RFC runbook RAG, and one-click closed-loop remediation.
+   * Repository: [ISHAANYADAV8/network-fault-diagnosis-agent](https://github.com/ISHAANYADAV8/network-fault-diagnosis-agent)
+   * Dynamically probes Harsh's live bridge; transparently falls back to local simulation if offline.
+
+---
+
 ## 🚀 Key Technical Breakthroughs
 
 1. **Kernel VRF Virtualization:** Set up an Ubuntu 26.04 ARM64 VM on UTM to provide the Linux kernel `vrf` module required by NIKA.
 2. **On-Line LVM Expansion:** Dynamically expanded the VM's root partition from 12 GB to 24 GB to accommodate multi-container image compilation.
 3. **LangChain Thought Signature Bug Resolution:** Solved an industry-wide schema mismatch where LangChain dropped Google's cryptographic `thought_signature` on multi-turn function calls, enabling robust Gemini 3.x tool execution.
 4. **Zero-Dependency Topology Server:** Implemented a lightweight, graph-traversal MCP server using standard library BFS queues, returning valid Clos ECMP paths in under 1 millisecond.
+5. **Live Distributed Gateway:** Integrated Cloudflare Quick Tunnel with a live FastAPI bridge daemon, enabling cross-machine remote telemetry, fault injection, and remediation across different Wi-Fi networks with sub-100ms latency.
 
 ---
 
@@ -107,9 +126,10 @@ The complete B.Tech project report formatted to official Delhi Technological Uni
 
 ---
 
-## 👨‍💻 Author
+## 👥 Project Team
 
-**Harsh**  
-B.Tech in Information Technology (Batch 2023–2027)  
-Delhi Technological University (DTU), Delhi, India  
-GitHub: [@Harshvardhan-2005](https://github.com/Harshvardhan-2005)
+* **Harshvardhan Kumar Arya** (Roll No: 23/IT/062) — *Data-Plane Emulation Substrate, NIKA Benchmark, MCP Topology Server, Live Bridge Daemon*
+* **Ishaan Yadav** (Roll No: 23/IT/073) — *Cognitive Control-Plane, BM25 Runbook RAG, Interactive Web Visualizer, Safe Remediation Engine*
+
+**Department of Information Technology, Delhi Technological University (DTU)**  
+Supervised for B.Tech Project-I (7th Semester)
