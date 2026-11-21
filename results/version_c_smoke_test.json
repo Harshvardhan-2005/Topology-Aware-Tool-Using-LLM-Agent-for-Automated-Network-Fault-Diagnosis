@@ -1,0 +1,33 @@
+{
+  "scenario": "dc_clos",
+  "problem": "link_down",
+  "version": "c",
+  "description": "Topology-aware agent with standard tools + custom MCP topology server (list_devices, list_neighbours, find_path)",
+  "metrics": {
+    "detection_score": 1.0,
+    "rca_accuracy": 1.0,
+    "rca_precision": 1.0,
+    "rca_recall": 1.0,
+    "rca_f1": 1.0,
+    "localization_accuracy": 1.0,
+    "localization_precision": 1.0,
+    "localization_recall": 1.0,
+    "localization_f1": 1.0,
+    "fault_type_precision": 1.0,
+    "fault_type_recall": 1.0,
+    "fault_type_f1": 1.0,
+    "wall_clock_time_sec": 42.5,
+    "in_tokens": 60448,
+    "out_tokens": 926,
+    "steps": 14,
+    "tool_calls": 13,
+    "tool_errors": 0
+  },
+  "comparison_vs_baseline": {
+    "time_reduction_percent": 34.0,
+    "input_token_reduction_percent": 9.1,
+    "output_token_reduction_percent": 17.5,
+    "steps_saved": 1,
+    "tool_calls_saved": 1
+  }
+}
