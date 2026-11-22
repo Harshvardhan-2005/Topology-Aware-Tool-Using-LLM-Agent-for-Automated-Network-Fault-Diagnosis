@@ -3,7 +3,7 @@ title: "AutoNet RCA Agent: Work Division & Master Viva Guide"
 subtitle: "B.Tech Project-I (IT-401) — Department of Information Technology, DTU"
 author:
   - "Harshit Vaish (23/IT/067)"
-  - "Harshwardhan Kumar Arya (23/IT/069)"
+  - "Harshvardhan Kumar Arya (23/IT/068)"
   - "Ishaan Yadav (23/IT/073)"
 date: "Academic Year 2026-2027"
 geometry: "margin=1in"
@@ -26,7 +26,7 @@ header-includes:
 * **Supervisor:** Dr. Anamika Chauhan
 * **Team Group:** Group No. 067
   * Harshit Vaish (Roll No: **23/IT/067**) — Systems & Network Infrastructure Lead
-  * Harshwardhan Kumar Arya (Roll No: **23/IT/069**) — Live Linux Emulation, AI Protocol & MCP Lead
+  * Harshvardhan Kumar Arya (Roll No: **23/IT/068**) — Live Linux Emulation, AI Protocol & MCP Lead
   * Ishaan Yadav (Roll No: **23/IT/073**) — Cognitive Control-Plane, BM25 RAG & Integration Lead
 
 ---
@@ -48,9 +48,9 @@ In our **Endterm Project**, we expanded this foundation into a **distributed cyb
 │    (23/IT/067)     │ • 5 read-only simulated tools     │ • Dynamic LLDP / ARP crawler  │
 │                    │ • Synthetic 5-fault injector      │ • 10-core & 100-scaled eval   │
 ├────────────────────┼───────────────────────────────────┼───────────────────────────────┤
-│ 2. Harshwardhan    │ • Basic ReAct loop (Thought/Act)  │ • Live Linux Kernel VRF & FRR │
+│ 2. Harshvardhan    │ • Basic ReAct loop (Thought/Act)  │ • Live Linux Kernel VRF & FRR │
 │    Kumar Arya      │ • 6-step budget constraint        │ • FastMCP Topology Server     │
-│    (23/IT/069)     │ • Regex hallucination guardrails  │ • Gemini Thought Signature fix│
+│    (23/IT/068)     │ • Regex hallucination guardrails  │ • Gemini Thought Signature fix│
 │                    │ • ZeroShot & Static RAG baselines │ • 34% Speedup on NIKA (Track B│
 ├────────────────────┼───────────────────────────────────┼───────────────────────────────┤
 │ 3. Ishaan Yadav    │ • Local BM25 ranking RAG          │ • Distributed Hybrid Driver   │
@@ -64,7 +64,7 @@ In our **Endterm Project**, we expanded this foundation into a **distributed cyb
 
 # 2. Detailed Technical Breakdown & Ownership
 
-## 2.1 Harshwardhan Kumar Arya (23/IT/069) — Track B: Live Linux Substrate & MCP Engine
+## 2.1 Harshvardhan Kumar Arya (23/IT/068) — Track B: Live Linux Substrate & MCP Engine
 
 ### Responsibilities & Completed Tasks:
 1. **Live Linux Emulation Substrate (Report Page 9, Sec 4):**
@@ -147,7 +147,7 @@ In our **Endterm Project**, we expanded this foundation into a **distributed cyb
 * **[0:00 – 1:15] Harshit Vaish:**  
   *"Respected examiners, I developed Track A: The Network Sandbox, Diagnostic Tools, and Benchmark Topologies. I formulated our 8-node and 28-node campus topologies and engineered the `NetworkSandbox` class in Python using NetworkX. Following the principle of least privilege, I exposed 5 strictly read-only inspection tools and 5 fault mutators. I also implemented simulated LLDP discovery and conducted our 10-scenario core benchmark (100% accuracy) and 100-scenario scaled evaluation (97% accuracy). Harsh will now present Track B on live Linux emulation."*
 
-* **[1:15 – 2:30] Harshwardhan Kumar Arya:**  
+* **[1:15 – 2:30] Harshvardhan Kumar Arya:**  
   *"Respected examiners, I engineered Track B: The Live Linux Emulation Substrate, NIKA Benchmark, and the MCP Topology Server. Because macOS lacks the kernel VRF module, I set up an ARM64 Ubuntu VM running real Kathará Docker containers with live FRRouting BGP daemons, resolving 7 hardware and storage obstacles including on-line LVM expansion. I developed our FastMCP Topology Server using standard-library BFS shortest-path queries. When integrating Gemini 3.5 Flash Lite, I discovered an industry protocol bug where LangChain stripped Google's `thought_signature`, causing 400 Bad Request crashes; I authored a serialization monkey-patch that solved it. On the NIKA benchmark, our topology tool cut diagnostic latency by **34.0%** and saved **9.1% input tokens**. I also created the FastAPI bridge daemon and Cloudflare tunnel that allows Ishaan to drive my containers live."*
 
 * **[2:30 – 4:30] Ishaan Yadav (with Live Screen Demo):**  

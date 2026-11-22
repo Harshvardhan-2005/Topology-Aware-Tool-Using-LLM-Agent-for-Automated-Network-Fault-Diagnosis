@@ -1,7 +1,7 @@
 # Harsh's Codebase Guide & Action Plan (Person 1)
 ## Emulated Network Data-Plane, NIKA Benchmark & Live Bridge Daemon
 
-**Target Engineer:** Harshvardhan Kumar Arya (Harsh)  
+**Target Engineer:** Harshvardhan Kumar Arya (Harsh — Roll No: 23/IT/068)  
 **Host Environment:** macOS (Apple Silicon M-Series)  
 **Guest Environment:** UTM Virtual Machine (Ubuntu 26.04 LTS aarch64, `192.168.64.2`, user `harsh_linux`)  
 **Core Technologies:** Docker Engine, Kathará Network Emulator, Linux Kernel VRF, FRRouting (BGP), NIKA Benchmark, Google Gemini 3.5 Flash Lite API (via OpenAI endpoint).
@@ -98,7 +98,7 @@ uv run nika eval summary --result_dir ~/nika/results_v_c > ~/nika/results_v_c/su
 ---
 
 ## 5. Viva Speaking Points for Harsh
-> *"Respected examiner, I built and managed the **Ground-Truth Network Emulation Substrate and the MCP Topology Server**.*  
+> *"Respected examiner, my name is Harshvardhan Kumar Arya (Roll No: 23/IT/068). I built and managed the **Ground-Truth Network Emulation Substrate and the MCP Topology Server**.*  
 > *Because macOS does not support the Linux kernel VRF subsystem natively, I configured an ARM64 Ubuntu 26.04 virtual machine using UTM with full Docker and Kathará network containers running live FRRouting BGP spines and leaves.*  
 > *When integrating newer Gemini 3.x models, I discovered a critical protocol incompatibility: Google's API returned 400 Bad Request because LangChain's OpenAI adapter stripped the proprietary `thought_signature` token required for multi-turn tool calling. I reverse-engineered the serialization pipeline and authored a monkey-patch that preserves `extra_content`, enabling full multi-turn diagnostic reasoning.*  
 > *I also engineered the custom Model Context Protocol (MCP) topology server using standard library BFS shortest-path algorithms. In our empirical smoke tests on identical leaf-spine topologies, our topology-aware agent achieved a **34% latency reduction**, reduced prompt token overhead by **9.1%**, and solved incidents with fewer diagnostic tool calls compared to the baseline agent."*

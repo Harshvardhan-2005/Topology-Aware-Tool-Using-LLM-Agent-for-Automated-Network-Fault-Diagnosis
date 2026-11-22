@@ -30,18 +30,17 @@
 
 | | |
 |---|---|
-| **Submitted by:** | Harsh |
-| **Roll Number:** | [ROLL_NUMBER] |
+| **Submitted by:** | **Harshit Vaish** (23/IT/067)<br>**Harshvardhan Kumar Arya** (23/IT/068)<br>**Ishaan Yadav** (23/IT/073) |
 | **Batch:** | 2023–2027 |
 | **Programme:** | B.Tech Information Technology |
-| **Semester:** | 5th Semester |
-| **Academic Year:** | 2025–2026 |
+| **Semester:** | 7th Semester |
+| **Academic Year:** | 2026–2027 |
 
 ---
 
 **Under the Supervision of:**
 
-**[SUPERVISOR_NAME]**
+**Dr. Anamika Chauhan**
 
 Department of Information Technology
 
@@ -49,7 +48,7 @@ Delhi Technological University
 
 ---
 
-*November 2025*
+*November 2026*
 
 </div>
 
@@ -57,31 +56,36 @@ Delhi Technological University
 
 ## Candidate's Declaration
 
-I, **Harsh**, Roll No. **[ROLL_NUMBER]**, student of **B.Tech Information Technology (5th Semester)**, **Delhi Technological University**, Delhi, hereby declare that the project report entitled:
+We are **Harshit Vaish**, **Harshvardhan Kumar Arya**, and **Ishaan Yadav** (Roll Nos. **23/IT/067**, **23/IT/068**, and **23/IT/073**), students of **B.Tech Information Technology (7th Semester)**, **Delhi Technological University**, Delhi, hereby declare that the project report entitled:
 
-**"Topology-Aware Tool-Using LLM Agent for Automated Network Fault Diagnosis and Root-Cause Analysis"**
+**"AutoNet RCA Agent: A Topology-Aware Tool-Using LLM Agent for Automated Network Fault Diagnosis and Root-Cause Analysis"**
 
-submitted in partial fulfilment of the requirements for the award of the degree of **Bachelor of Technology in Information Technology**, is a record of original work carried out by me under the supervision of **[SUPERVISOR_NAME]**, Department of Information Technology, Delhi Technological University.
+submitted in partial fulfilment of the requirements for the award of the degree of **Bachelor of Technology in Information Technology**, is a record of original work carried out by us under the supervision of **Dr. Anamika Chauhan**, Department of Information Technology, Delhi Technological University.
 
-I further declare that:
+We further declare that:
 
 1. This report has not been submitted previously, in part or in full, to any other university or institution for the award of any degree, diploma, or certificate.
 2. All sources of information and assistance used in this project have been duly acknowledged in the References section.
-3. The work presented in this report is my own, except where explicit references are made to contributions by others.
-4. I have followed the academic integrity norms of Delhi Technological University throughout this project.
+3. The work presented in this report is our own, except where explicit references are made to contributions by others.
+4. We have followed the academic integrity norms of Delhi Technological University throughout this project.
 
 ---
 
-**Signature of Candidate:**
+**Signatures of Candidates:**
 
 &nbsp;
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+**Harshit Vaish** (23/IT/067)
 
-**Harsh**
-Roll No.: [ROLL_NUMBER]
-B.Tech IT, 5th Semester
-Delhi Technological University
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+**Harshvardhan Kumar Arya** (23/IT/068)
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+**Ishaan Yadav** (23/IT/073)
+
+B.Tech IT, 7th Semester  
+Delhi Technological University  
 
 **Date:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -93,9 +97,9 @@ Delhi Technological University
 
 This is to certify that the project report entitled:
 
-**"Topology-Aware Tool-Using LLM Agent for Automated Network Fault Diagnosis and Root-Cause Analysis"**
+**"AutoNet RCA Agent: A Topology-Aware Tool-Using LLM Agent for Automated Network Fault Diagnosis and Root-Cause Analysis"**
 
-submitted by **Harsh** (Roll No. **[ROLL_NUMBER]**), student of B.Tech Information Technology (5th Semester), Delhi Technological University, is a bona fide record of the work carried out by the student under my supervision and guidance during the academic year **2025–2026**.
+submitted by **Harshit Vaish** (23/IT/067), **Harshvardhan Kumar Arya** (23/IT/068), and **Ishaan Yadav** (23/IT/073), students of B.Tech Information Technology (7th Semester), Delhi Technological University, is a bona fide record of the work carried out by the students under my supervision and guidance during the academic year **2026–2027**.
 
 This report is submitted in partial fulfilment of the requirements for the award of the degree of **Bachelor of Technology in Information Technology** from Delhi Technological University, Delhi.
 
@@ -108,6 +112,11 @@ To the best of my knowledge and belief, the contents of this report are original
 &nbsp;
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Dr. Anamika Chauhan**  
+SUPERVISOR  
+Department of Information Technology  
+Delhi Technological University
 
 **[SUPERVISOR_NAME]**
 Department of Information Technology
@@ -1089,12 +1098,11 @@ The current topology tool is read-only and stores a static graph. A more advance
 
 **Delhi Technological University**
 Department of Information Technology
-B.Tech Project-I — 5th Semester, Academic Year 2025–2026
+B.Tech Project-I — 7th Semester, Academic Year 2026–2027
 
 | Field | Value |
 |-------|-------|
-| Student | Harsh |
-| Roll Number | [ROLL_NUMBER] |
-| Supervisor | [SUPERVISOR_NAME] |
+| Students | Harshit Vaish (23/IT/067)<br>Harshvardhan Kumar Arya (23/IT/068)<br>Ishaan Yadav (23/IT/073) |
+| Supervisor | Dr. Anamika Chauhan |
 | Batch | 2023–2027 |
-| Report submitted | November 2025 |
+| Report submitted | November 2026 |

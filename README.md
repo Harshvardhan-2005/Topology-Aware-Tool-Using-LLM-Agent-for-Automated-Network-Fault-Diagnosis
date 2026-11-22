@@ -128,7 +128,7 @@ The complete B.Tech project report formatted to official Delhi Technological Uni
 
 ## 👥 Project Team
 
-* **Harshvardhan Kumar Arya** (Roll No: 23/IT/062) — *Data-Plane Emulation Substrate, NIKA Benchmark, MCP Topology Server, Live Bridge Daemon*
+* **Harshvardhan Kumar Arya** (Roll No: 23/IT/068) — *Data-Plane Emulation Substrate, NIKA Benchmark, MCP Topology Server, Live Bridge Daemon*
 * **Ishaan Yadav** (Roll No: 23/IT/073) — *Cognitive Control-Plane, BM25 Runbook RAG, Interactive Web Visualizer, Safe Remediation Engine*
 
 **Department of Information Technology, Delhi Technological University (DTU)**  
